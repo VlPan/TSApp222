@@ -9,7 +9,7 @@ module.exports = webpackMerge(commonConfig, {
     devServer: {
         contentBase: path.join(__dirname, ".tmp"),
         compress: true,
-        port: 9000
+        port: 3000
     },
 
     output: {
